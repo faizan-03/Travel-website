@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>RF TRAVELS</title>
+
+<style>
+
+.bod{
+
+    background-image: url("https://plus.unsplash.com/premium_photo-1661930495771-926265a69d02?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    height: 80vh;
+    width: 100%;
+    display: block;
+
+}
+
+.bod img{
+
+    height: 80vh;
+    width: 100%;
+
+}
+
+
+.right{
+
+    /* border: 2px red solid; */
+    position: absolute;
+    top: 28px;
+    right:4px;
+    padding: 10px 2px;
+    font-weight: bold;
+    margin-right: 14px;
+ text-align: center;
+ font-size: 22px;
+
+}
+
+
+.right li{
+
+    display: inline-block;
+    padding: 0px 14px;
+
+}
+
+.right li a:hover{
+
+color: rgb(46, 22, 67);
+text-decoration: underline;
+animation: imageAnimation 1.5s ease-in-out infinite;
+
+} 
+
+.right li a{
+
+text-decoration: none;
+color: aliceblue;
+}
+
+.mid{
+
+    /* border: 2px solid black; */
+    width:49%;
+    margin-top: -19px;
+ display: block;
+ margin: auto;
+ padding: 10px 2px;
+ font-weight: bold;
+ text-align: center;
+ font-size: 22px;
+
+}
+
+.mid ul {
+
+    list-style: none;
+   
+}
+
+.mid li{
+    margin: 0px 22px;
+    display: inline-block;
+    
+}
+
+.mid li a{
+
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.mid li a:hover{
+
+    color: rgb(23, 2, 43);
+text-decoration: underline;
+animation: imageAnimation 1.5s ease-in-out infinite;
+
+}
+
+.left{
+
+    margin-top: 0px;
+    display: inline-block;
+height: 10px;
+width: 10%;
+}
+
+.left img{
+
+    display: block;
+    
+    height: 73px;
+    width: 235%;
+    margin-top: 17px;
+margin-left: 8px;
+}
+
+.head{
+
+    border: 2px solid black;
+    background-color: #6c7276;
+    
+}
+#search{
+
+    position: absolute;
+    top: 5in;
+    left: 4in;
+    padding: 10px;
+    margin: 10px;
+
+}
+#se{
+
+    padding: 8px 95px;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+    background-color: skyblue;
+    font-weight: bold;
+    margin-left: 44px;
+   
+}
+
+#se:hover{
+
+    background-color: rgb(13, 94, 155);
+
+}
+
+.dd{
+
+    padding: 8px 63px;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+font-weight: bold;
+background-color: skyblue;
+}
+
+#dd:hover{
+
+background-color: rgb(13, 94, 155);
+
+}
+
+.btn{
+
+cursor: pointer;
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+background-color: skyblue;
+}
+.btn:hover{
+
+color: cornflowerblue;
+background-color: darkslateblue;
+animation: imageAnimation 4s ease-in-out infinite;
+}
+
+#bt{
+
+    margin-top: 10px;
+    padding: 6px 150px;
+    border-radius: 10px;
+    margin-left: 45px;
+    font-weight: bold;
+
+}
+
+.e{
+
+    border: 2px solid black;
+    padding: 10px;
+    margin: 4px;
+    width: 47%;
+    height: 3in;
+   display: inline-block;
+   font-size: 16px;
+
+}
+
+.e h2{
+
+    text-align: center;
+}
+
+#a{
+    background-image: url("https://cdn.trips.pk/tours/images/tourimages/large/L_skardu-9-days-feature-image%20(1).jpg");
+
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+
+#b{
+
+    float: right;
+background-image: url(https://ilm.com.pk/wp-content/uploads/2013/05/naran-kaghan-valley-in-pakistan-800x550.gif);
+color: black;
+font-size: 17px;
+font-weight: bold;
+
+}
+#c{
+
+    background-image: url(https://media.istockphoto.com/id/596385832/photo/beautiful-kachura-lake-in-skardu.jpg?s=612x612&w=0&k=20&c=tCo4NP6aGY1N4Zk6rHBoDKC29gGvXHnzTt85a20viLY=);
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+#d{
+
+    float: right;
+background-image: url(https://www.shutterstock.com/image-photo/buttermere-early-morning-walk-600w-118756720.jpg);
+
+color: black;
+font-size: 17px;
+font-weight: bold;
+
+}
+
+.scnd{
+
+    border: 2px solid #1e1e67;
+background-image: url(https://cdn.pixabay.com/photo/2017/12/29/18/47/mountains-3048299_1280.jpg);
+
+}
+
+.scnd  h1{
+
+    margin-top: 25px;
+ text-align: center;
+}
+
+#sel{
+
+    border: 2px solid green;
+padding: 5px 63px;
+border-radius: 12px ;
+cursor: pointer;
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+margin-top: 10px;
+background-color: skyblue;
+
+}
+
+#sel:hover{
+
+background-color: rgb(13, 94, 155);
+
+}
+
+
+#sel option {
+    
+    cursor: pointer;
+    
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color:rgb(172, 178, 232);
+    
+}
+
+.aaa {
+
+   
+cursor: pointer;
+font-weight: bold;
+font-size: 20px;
+padding: 0px 10px;
+}
+
+.bbb{
+
+    cursor: pointer;
+font-weight: bold;
+font-size: 20px;
+margin-left: 9px;
+    padding: 0px 10px;
+
+}
+
+#du{
+
+    border: 2px solid rgb(14, 63, 148);
+padding: 5px 4px;
+border-radius: 12px ;
+cursor: pointer;
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+background-color: skyblue;
+margin-top: 10px;
+color: black;
+
+}
+#du:hover{
+
+background-color: rgb(13, 94, 155);
+
+}
+
+.tone{
+
+    margin-top: 5px;
+    display: inline-block;
+    width: 45%;
+    height: 305px;
+    margin: 5px 21px;
+    margin-bottom: 115px;
+
+}
+
+.third{
+
+    display: block;
+color: black;
+border: 2px solid green;
+/* background-color: blanchedalmond; */
+
+background-image: url(https://wallpaperaccess.com/full/5032087.jpg);
+}
+
+.tone img{
+
+height: 305px;
+width: 100%;
+
+}
+
+/* chutyapa */
+
+@keyframes imageAnimation {
+    0% {
+        transform: scale(1); /* Initial size */
+        opacity: 1; /* Initial opacity */
+    }
+    50% {
+        transform: scale(1.1); /* Slightly larger size */
+        opacity: 0.5; /* Reduced opacity */
+    }
+    100% {
+        transform: scale(1); /* Back to initial size */
+        opacity: 1; /* Back to initial opacity */
+    }
+}
+
+.tone img:hover{
+
+    animation: imageAnimation 2s ease-in-out infinite;
+
+}
+
+
+
+.third p{
+
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+border: 2px solid black;
+background-color:#0f6b80;
+
+}
+
+.for{
+
+border: 2px solid black;
+height: 10in;
+
+
+}
+
+.details{
+
+    border: 2px solid black;
+margin-left: 10px;
+padding: 5px 50px;
+
+
+}
+
+#no,#num,#mail{
+
+    border: 2px solid rgb(14, 63, 148);
+    padding: 5px 4px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: skyblue;
+    margin-top: 10px;
+    color: black;
+
+}
+
+#num,#mail,#no{
+
+margin-left: 10px;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+    
+    <header class="head"> 
+
+
+    <div class="left">
+    
+        <img src="..//logo.png" alt="logo" >
+    
+    
+    </div>
+
+
+
+    <div class="mid">
+    
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">TOUR</a></li>
+        <li><a href="#">LOCATION</a></li>
+        <li><a href="#">INFO</a></li>
+    </ul>
+    
+    </div>
+
+
+<div class="right">
+
+    <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">CONTACT US</a></li>
+        
+    </ul>
+
+</div>
+<br>
+</header> 
+
+<summary class="bod">
+
+    <img src="https://wallpaperaccess.com/full/185289.jpg" alt="travel">
+
+    <div id="search">
+
+        <label for="se"></label>
+        <input type="search" name="search" id="se" placeholder=" ENTER PLACE NAME">
+        <br>
+<button class="btn" id="bt">
+    CHECK
+</button>
+    </div>
+
+</summary>
+
+<summary class="scnd">
+
+<h1 > PACKAGES </h1>
+
+<div class="e" id="a">
+
+<h2>Sakurdu</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa suscipit dolores harum atque velit, tempore dolore enim officia. Mollitia perspiciatis obcaecati eligendi, consequatur voluptatibus sunt corrupti, error labore debitis temporibus deserunt, in laudantium saepe. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nesciunt blanditiis deserunt totam repudiandae quod delectus dolores, inventore veniam aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa pariatur deserunt magnam vero minima in enim voluptas optio ipsum totam, commodi quia! Debitis, est soluta alias totam rem nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iste soluta fuga atque dicta qui quos ipsa beatae nihil reprehenderit. </p>
+</div>
+<div class="e" id="b">
+
+<h2> NARAN</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa suscipit dolores harum atque velit, tempore dolore enim officia. Mollitia perspiciatis obcaecati eligendi, consequatur voluptatibus sunt corrupti, error labore debitis temporibus deserunt, in laudantium saepe. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nesciunt blanditiis deserunt totam repudiandae quod delectus dolores, inventore veniam aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa pariatur deserunt magnam vero minima in enim voluptas optio ipsum totam, commodi quia! Debitis, est soluta alias totam rem nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iste soluta fuga atque dicta qui quos ipsa beatae nihil reprehenderit. </p>
+
+</div>
+<div class="e" id="c">
+
+<h2>GILGIT</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa suscipit dolores harum atque velit, tempore dolore enim officia. Mollitia perspiciatis obcaecati eligendi, consequatur voluptatibus sunt corrupti, error labore debitis temporibus deserunt, in laudantium saepe. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nesciunt blanditiis deserunt totam repudiandae quod delectus dolores, inventore veniam aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa pariatur deserunt magnam vero minima in enim voluptas optio ipsum totam, commodi quia! Debitis, est soluta alias totam rem nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iste soluta fuga atque dicta qui quos ipsa beatae nihil reprehenderit. </p>
+</div>
+<div class="e" id="d">
+
+<h2> ASTOR</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa suscipit dolores harum atque velit, tempore dolore enim officia. Mollitia perspiciatis obcaecati eligendi, consequatur voluptatibus sunt corrupti, error labore debitis temporibus deserunt, in laudantium saepe. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nesciunt blanditiis deserunt totam repudiandae quod delectus dolores, inventore veniam aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa pariatur deserunt magnam vero minima in enim voluptas optio ipsum totam, commodi quia! Debitis, est soluta alias totam rem nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iste soluta fuga atque dicta qui quos ipsa beatae nihil reprehenderit. </p>
+</div>
+
+
+</summary>
+
+<summary class="third">
+
+<h1><center>LOCATIONS</center></h1>
+
+<br>
+<div class="tone" id="isl">
+
+<img src="https://lh3.googleusercontent.com/p/AF1QipNYL85MeaFuDY4vsigV1wSGcZKal5LzBsn7i-5y=s1360-w1360-h1020" alt="img">
+<br>
+<p>ISLAMBAD</p>
+
+</div>
+<div class="tone"id="lah">
+
+<img src="https://c1.wallpaperflare.com/preview/258/515/614/lahore-lahore-city-lhr-lahore-pakistan.jpg" alt="minar-e-pakistan">
+<br>
+<p>LAHORE</p>
+
+</div>
+<div class="tone"id="pes">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Islamia_College_Peshawar_%28Public_Sector_University%29%2C_Khyber_Pakhtunkhwa%2C_Pakistan_cropped.jpg/1280px-Islamia_College_Peshawar_%28Public_Sector_University%29%2C_Khyber_Pakhtunkhwa%2C_Pakistan_cropped.jpg" alt="Islamia clg peshawar">
+<br>
+<p>PESHAWAR</p>
+
+</div>
+<div class="tone"id="que">
+
+<img src="https://farm2.static.flickr.com/1655/23963096655_e6f28fb50e_z.jpg" alt="ziarat razidency ">
+<br>
+<p>ZIARAT</p>
+
+</div>
+<div class="tone"id="kar">
+
+<img src="https://media.istockphoto.com/id/146889224/photo/tomb-of-quaid-e-azam-mohammed-ali-jinnah.jpg?s=612x612&w=0&k=20&c=d-fuF8ERJu7xDkgpQdBLiRi43JxN-pAntowXU18Pj6k=" alt=" Quaid tomb">
+<br>
+<p>KARACHI</p>
+
+</div>
+
+<div class="tone"id="man">
+
+    <img src="https://live.staticflickr.com/8118/8619050493_b1bd4fb49b_b.jpg" alt="Mandi bahauddin">
+    <br>
+<p>MANDI BAHAUDDIN</p>
+    
+    </div>
+
+
+</summary>
+
+<summary class="for">
+
+    <h1>FILL INFORMATION</h1>
+<div class="details">
+
+    <label for="no" class="aaa">Name</label>
+    <input type="text" name="na" id="no">
+
+    <label for="num" class="bbb">Contact Number </label>
+    <input type="number" name="number" id="num">
+
+    <label for="mail" class="bbb">Email</label>
+    <input type="email" name="emai" id="mail">
+
+
+
+    <br>
+    <label for="dd" class="aaa"> START TOUR</label>
+        <input type="date" name="dat" class="dd">
+        <label for="sel" class="bbb">PACKAGE PLAN</label>
+
+
+        <select name="plan" id="sel">
+       <option value="Family">Family</option>
+       <option value="Single">Single</option>
+       <option value="DUO">Duo</option>
+       <option value="Couple">Couple</option>
+        </select>
+
+       <label for="du" class="bbb">Duration</label>
+        <input type="number" name="num" id="du" placeholder="Days">
+        <br>
+
+</div>
+
+
+
+</summary>
+
+
+
+</body>
+</html>
